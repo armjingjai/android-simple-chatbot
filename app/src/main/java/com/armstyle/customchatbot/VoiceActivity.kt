@@ -22,7 +22,7 @@ class VoiceActivity : AppCompatActivity() , AIListener {
         setContentView(R.layout.activity_voice)
 
         val config = ai.api.android.AIConfiguration(
-            "5435097a2625406cb27b78b322f1088e",
+            "access token",
             AIConfiguration.SupportedLanguages.English,
             ai.api.android.AIConfiguration.RecognitionEngine.System
         )
