@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "120287229562",
+    "firebase_url": "https://customchatbot-f0eea.firebaseio.com",
+    "project_id": "customchatbot-f0eea",
+    "storage_bucket": "customchatbot-f0eea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120287229562:android:6f908295a0e69111906dc3",
+        "android_client_info": {
+          "package_name": "com.armstyle.customchatbot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120287229562-99cdvbadaobcald0jutln59ieo8hg9dr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUaD5xfUAGTxq2jh7jEGbg8u6J3YdtDOY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120287229562-99cdvbadaobcald0jutln59ieo8hg9dr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
