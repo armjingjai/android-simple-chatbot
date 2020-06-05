@@ -253,7 +253,7 @@ class MainActivity : AppCompatActivity() , AIListener {
         const val LIMIT_LOAD = 10
 
         // chatbot
-        const val CLIENT_ACCESS_TOKEN = "15134f0f2c0f47b2bf75ca0f87bc18bc"
+        const val CLIENT_ACCESS_TOKEN = "Your client access token"
 
         // firebase
         const val FIREBASE_DB_CHILD = "messages"
