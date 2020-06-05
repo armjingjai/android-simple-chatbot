@@ -7,6 +7,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.armstyle.customchatbot.R
+import com.armstyle.customchatbot.TypePosittion
+import com.armstyle.customchatbot.TypeUsers
 import com.armstyle.customchatbot.vo.ChatMessage
 import kotlinx.android.synthetic.main.item_bot_chat.view.*
 import kotlinx.android.synthetic.main.item_user_chat.view.*
@@ -19,12 +21,16 @@ class MyAdapter (val context: Context): RecyclerView.Adapter<MyAdapter.MessageVi
 
     private val messages: ArrayList<ChatMessage> = ArrayList()
 
-    fun addMessage(message: ChatMessage){
-        messages.add(message)
+    fun addMessage(message: ChatMessage, pos: String){
+        if (pos == TypePosittion.TOP.type){
+            messages.add(0, message)
+        }else{
+            messages.add(message)
+        }
     }
 
     override fun getItemViewType(position: Int): Int {
-        return if (messages[position].user == "bot") {
+        return if (messages[position].user == TypeUsers.BOT.type) {
             TYPE_BOT
         } else {
             TYPE_USER
